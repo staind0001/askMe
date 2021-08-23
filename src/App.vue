@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <decision />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Decision from './components/Decision.vue'
+
+
+
+
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { Decision },
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Bigelow Rules';
+   font-size: 50px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+ 
 }
 </style>
